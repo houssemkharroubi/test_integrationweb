@@ -1,0 +1,75 @@
+@import "variables.scss";
+.navbar{
+	background-color: $navbarColor; 
+}
+
+
+
+.nav-link{
+	color: $navLinkColor !important;
+	font-size: 1.875  rem !important;
+	font-family: "Lato Regular";
+}
+.title{
+	font-size: 2.2rem;
+}
+
+.title1{
+	@extend .title;
+	color: $titleColor;
+    padding-top: 5.43rem;
+    font-family: "Playfair Display SC Bold";
+}
+
+.title2{
+	@extend .title;
+	color: $subTitleColor;
+}
+
+p{
+  font-family: "Lato Regular";
+  font-size: 1.5rem;
+  color: $paragColor;
+}
+footer{
+	background-color: $navbarColor;
+	height: 121px;
+	margin-top: 90vh;
+}
+
+footer h3{
+	font-family: "Lato Regular";
+	padding-top: 40px;
+	// margin-right: 40%;
+}
+
+.footer_content{
+	align-content: space-around;
+}
+
+.image_social{
+	height: 30px;
+	// margin-top:50px;
+	}
+
+	.image_social1{
+		margin-top:-32px;
+	}
+.title3{
+	word-wrap: break-word;
+	color:$subTitleColor;
+	font-family: "Playfair Displa bold";
+}
+
+.date_number{
+	font-size: 24px;
+	font-family: "Lato bold";
+	color:$colorGray;
+}
+
+.subtitles{
+	font-size: 24px !important;
+	font-weight: 300 !important;
+	color:$titleColor;	
+	font-family: "Lato Regular";
+}
